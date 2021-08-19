@@ -1,0 +1,48 @@
+body{
+    height: 10rem;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    background: #FF6495;
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.head{
+    font-family:monospace;
+    font-size: 50px;
+    color:#9CF6FB;
+}
+
+input{
+    width: 20rem;
+    height: 25px;
+    outline: none; 
+    background-color:rgba(37, 185, 185, 0.959);
+    border-radius: 10px;
+    box-shadow: 0 0 5pt 0.5pt #000000;
+    font-size: 18px;
+    font-family:  Tahoma, sans-serif
+}
+
+input[type=text]:focus{
+    background-color:rgb(44, 240, 240);
+    border: 2px solid rgba(55, 238, 255, 0.466); 
+    box-shadow: inset 0px -20px 20px #5dbda893;
+}
+
+.result{
+    font-size: 20px;
+    font-family:cursive;
+    cursor: pointer;
+    color:rgb(2, 49, 180);
+}
+p.done{
+    color: #0026ff48;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
